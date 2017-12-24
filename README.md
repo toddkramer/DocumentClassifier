@@ -1,5 +1,7 @@
 # DocumentClassifier
 
+![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/DocumentClassifier/badge.png) [![Swift](https://img.shields.io/badge/swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/) ![Platform](https://cocoapod-badges.herokuapp.com/p/CodableKeychain/badge.png) [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 ## Overview
 
 DocumentClassifier is a Swift framework for classifying documents into one of five categories (Business, Entertainment, Politics, Sports, and Technology). It uses a CoreML model trained with 1,500 news articles from the BBC.
