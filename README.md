@@ -1,6 +1,6 @@
 # DocumentClassifier
 
-![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/DocumentClassifier/badge.png) [![Swift](https://img.shields.io/badge/swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/) ![Platform](https://cocoapod-badges.herokuapp.com/p/CodableKeychain/badge.png) [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/DocumentClassifier/badge.png) [![Swift](https://img.shields.io/badge/swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/) ![Platform](https://cocoapod-badges.herokuapp.com/p/DocumentClassifier/badge.png)
 
 ## Overview
 
@@ -22,6 +22,35 @@ guard let classification = classifier.classify(text) else { return }
 print(classification.prediction) // Technology: 0.42115752953489294
 print(classification.allResults) // Business: 0.141, Entertainment: 0.138, Politics: 0.113, Sports: 0.187, Technology: 0.421
 ```
+
+## Installation
+
+> _Note:_ DocumentClassifier requires Swift 4 (and [Xcode][] 9) or greater.
+>
+> Targets using DocumentClassifier must support embedded Swift frameworks.
+
+[Xcode]: https://developer.apple.com/xcode/downloads/
+
+
+### CocoaPods
+
+[CocoaPods][] is a centralized dependency manager for Cocoa projects. To install
+DocumentClassifier with CocoaPods:
+
+1. Make sure the latest version of CocoaPods is [installed](https://guides.cocoapods.org/using/getting-started.html#getting-started).
+
+
+2. Add DocumentClassifier to your Podfile:
+
+``` ruby
+use_frameworks!
+
+pod 'DocumentClassifier', '1.0.0'
+```
+
+3. Run `pod install`.
+
+[CocoaPods]: https://cocoapods.org
 
 ## Example App
 
