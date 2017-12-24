@@ -26,6 +26,8 @@ import Foundation
 
 public final class DocumentClassifier {
 
+    public init() {}
+
     private let model = DocumentClassification()
     private let options: NSLinguisticTagger.Options = [.omitWhitespace, .omitPunctuation, .omitOther]
     private lazy var tagger: NSLinguisticTagger = {
@@ -37,18 +39,8 @@ public final class DocumentClassifier {
         let features = extractFeatures(from: text)
         guard
             features.count > 2,
-            let output = try? model.prediction(input: features),
-            let category = Category(rawValue: output.classLabel),
-            let probability = output.classProbability[output.classLabel]
-            else { return nil }
-        let prediction = Classification.Result(category: category, probability: probability)
-        let allResults = output.classProbability.flatMap(result)
-        return Classification(prediction: prediction, allResults: allResults)
-    }
-
-    func result(from classProbability: (key: String, value: Double)) -> Classification.Result? {
-        guard let category = Category(rawValue: classProbability.key) else { return nil }
-        return Classification.Result(category: category, probability: classProbability.value)
+            let output = try? model.prediction(input: features) else { return nil }
+        return Classification(output: output)
     }
 
     func extractFeatures(from text: String) -> [String: Double] {

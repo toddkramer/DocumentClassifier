@@ -1,5 +1,5 @@
 //
-//  DocumentClassifierTests.swift
+//  AppDelegate.swift
 //
 //  Copyright (c) 2017 Todd Kramer (http://www.tekramer.com)
 //
@@ -22,35 +22,16 @@
 //  THE SOFTWARE.
 //
 
-import XCTest
-@testable import DocumentClassifier
+import UIKit
 
-class DocumentClassifierTests: XCTestCase {
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    let classifier = DocumentClassifier()
-    let categories = ["Business", "Entertainment", "Politics", "Sports", "Technology"]
+    var window: UIWindow?
 
-    let bundle = Bundle(for: DocumentClassifierTests.self)
-    
-    func testClassifiy() {
-        categories.forEach {
-            let path = bundle.path(forResource: $0, ofType: "txt")!
-            let url = URL(fileURLWithPath: path)
-            let text = try! String(contentsOf: url)
-            let classification = classifier.classify(text)!
-            let expectedCategory = Classification.Category(rawValue: $0)!
-            XCTAssertEqual(classification.prediction.category, expectedCategory)
-        }
-        XCTAssertNil(classifier.classify("technology"))
-    }
-
-    func testNilClassificationFromOutput() {
-        let output = DocumentClassificationOutput(classLabel: "random", classProbability: ["random": 0.4])
-        XCTAssertNil(Classification(output: output))
-    }
-
-    func testNilResultFromClassProbability() {
-        XCTAssertNil(Classification.result(from: ("random", 0.4)))
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        return true
     }
 
 }
+
