@@ -1,5 +1,5 @@
 //
-//  DocumentClassifierTests.swift
+//  Classification.swift
 //
 //  Copyright (c) 2017 Todd Kramer (http://www.tekramer.com)
 //
@@ -22,30 +22,24 @@
 //  THE SOFTWARE.
 //
 
-import XCTest
-@testable import DocumentClassifier
+import Foundation
 
-class DocumentClassifierTests: XCTestCase {
+public enum Category: String {
+    case business = "Business"
+    case entertainment = "Entertainment"
+    case politics = "Politics"
+    case sports = "Sports"
+    case technology = "Technology"
+}
 
-    let classifier = DocumentClassifier()
-    let categories = ["Business", "Entertainment", "Politics", "Sports", "Technology"]
+public struct Classification {
 
-    let bundle = Bundle(for: DocumentClassifierTests.self)
-    
-    func testClassifiy() {
-        categories.forEach {
-            let path = bundle.path(forResource: $0, ofType: "txt")!
-            let url = URL(fileURLWithPath: path)
-            let text = try! String(contentsOf: url)
-            let classification = classifier.classify(text)!
-            let expectedCategory = Category(rawValue: $0)!
-            XCTAssertEqual(classification.prediction.category, expectedCategory)
-        }
-        XCTAssertNil(classifier.classify("technology"))
+    public struct Result {
+        let category: Category
+        let probability: Double
     }
 
-    func testResultFromClassProbability() {
-        XCTAssertNil(classifier.result(from: ("random", 0.4)))
-    }
+    public let prediction: Result
+    public let allResults: [Result]
 
 }

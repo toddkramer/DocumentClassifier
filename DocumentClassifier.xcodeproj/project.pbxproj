@@ -17,6 +17,33 @@
 		9B45DBB41FEEB89000D81C9F /* DocumentClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBAE1FEEB87900D81C9F /* DocumentClassifierTests.swift */; };
 		9B45DBB51FEEB89100D81C9F /* DocumentClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBAE1FEEB87900D81C9F /* DocumentClassifierTests.swift */; };
 		9B45DBB61FEEB89300D81C9F /* DocumentClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBAE1FEEB87900D81C9F /* DocumentClassifierTests.swift */; };
+		9B45DBB81FEEBB4200D81C9F /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBB71FEEBB4200D81C9F /* Classification.swift */; };
+		9B45DBB91FEEBB4200D81C9F /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBB71FEEBB4200D81C9F /* Classification.swift */; };
+		9B45DBBA1FEEBB4200D81C9F /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBB71FEEBB4200D81C9F /* Classification.swift */; };
+		9B45DBBB1FEEBB4200D81C9F /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBB71FEEBB4200D81C9F /* Classification.swift */; };
+		9B45DBBD1FEF28E300D81C9F /* DocumentClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBBC1FEF28E300D81C9F /* DocumentClassifier.swift */; };
+		9B45DBBE1FEF28E300D81C9F /* DocumentClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBBC1FEF28E300D81C9F /* DocumentClassifier.swift */; };
+		9B45DBBF1FEF28E300D81C9F /* DocumentClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBBC1FEF28E300D81C9F /* DocumentClassifier.swift */; };
+		9B45DBC01FEF28E300D81C9F /* DocumentClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBBC1FEF28E300D81C9F /* DocumentClassifier.swift */; };
+		9B45DBC31FEF297600D81C9F /* DocumentClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBC21FEF297600D81C9F /* DocumentClassification.mlmodel */; };
+		9B45DBC41FEF297600D81C9F /* DocumentClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBC21FEF297600D81C9F /* DocumentClassification.mlmodel */; };
+		9B45DBC51FEF297600D81C9F /* DocumentClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBC21FEF297600D81C9F /* DocumentClassification.mlmodel */; };
+		9B45DBC61FEF297600D81C9F /* DocumentClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B45DBC21FEF297600D81C9F /* DocumentClassification.mlmodel */; };
+		9B4EEC7D1FEF3D9A009E5262 /* Business.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBC81FEF3BB300D81C9F /* Business.txt */; };
+		9B4EEC7E1FEF3D9A009E5262 /* Entertainment.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBC91FEF3BB300D81C9F /* Entertainment.txt */; };
+		9B4EEC7F1FEF3D9A009E5262 /* Politics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBCA1FEF3BB300D81C9F /* Politics.txt */; };
+		9B4EEC801FEF3D9A009E5262 /* Sports.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBCB1FEF3BB300D81C9F /* Sports.txt */; };
+		9B4EEC811FEF3D9A009E5262 /* Technology.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBCC1FEF3BB300D81C9F /* Technology.txt */; };
+		9B4EEC821FEF3D9B009E5262 /* Business.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBC81FEF3BB300D81C9F /* Business.txt */; };
+		9B4EEC831FEF3D9B009E5262 /* Entertainment.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBC91FEF3BB300D81C9F /* Entertainment.txt */; };
+		9B4EEC841FEF3D9B009E5262 /* Politics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBCA1FEF3BB300D81C9F /* Politics.txt */; };
+		9B4EEC851FEF3D9B009E5262 /* Sports.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBCB1FEF3BB300D81C9F /* Sports.txt */; };
+		9B4EEC861FEF3D9B009E5262 /* Technology.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBCC1FEF3BB300D81C9F /* Technology.txt */; };
+		9B4EEC871FEF3D9C009E5262 /* Business.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBC81FEF3BB300D81C9F /* Business.txt */; };
+		9B4EEC881FEF3D9C009E5262 /* Entertainment.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBC91FEF3BB300D81C9F /* Entertainment.txt */; };
+		9B4EEC891FEF3D9C009E5262 /* Politics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBCA1FEF3BB300D81C9F /* Politics.txt */; };
+		9B4EEC8A1FEF3D9C009E5262 /* Sports.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBCB1FEF3BB300D81C9F /* Sports.txt */; };
+		9B4EEC8B1FEF3D9C009E5262 /* Technology.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B45DBCC1FEF3BB300D81C9F /* Technology.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +82,14 @@
 		9B45DBAC1FEEB87900D81C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B45DBAE1FEEB87900D81C9F /* DocumentClassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentClassifierTests.swift; sourceTree = "<group>"; };
 		9B45DBAF1FEEB87900D81C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B45DBB71FEEBB4200D81C9F /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
+		9B45DBBC1FEF28E300D81C9F /* DocumentClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentClassifier.swift; sourceTree = "<group>"; };
+		9B45DBC21FEF297600D81C9F /* DocumentClassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DocumentClassification.mlmodel; sourceTree = "<group>"; };
+		9B45DBC81FEF3BB300D81C9F /* Business.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Business.txt; sourceTree = "<group>"; };
+		9B45DBC91FEF3BB300D81C9F /* Entertainment.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Entertainment.txt; sourceTree = "<group>"; };
+		9B45DBCA1FEF3BB300D81C9F /* Politics.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Politics.txt; sourceTree = "<group>"; };
+		9B45DBCB1FEF3BB300D81C9F /* Sports.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sports.txt; sourceTree = "<group>"; };
+		9B45DBCC1FEF3BB300D81C9F /* Technology.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Technology.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				9B45DBAA1FEEB87900D81C9F /* Sources */,
+				9B45DBC11FEF297600D81C9F /* Resources */,
 				9B45DBAD1FEEB87900D81C9F /* Tests */,
 				9B45DB4E1FEEB6A500D81C9F /* Products */,
 			);
@@ -141,6 +177,8 @@
 			children = (
 				9B45DBAB1FEEB87900D81C9F /* DocumentClassifier.h */,
 				9B45DBAC1FEEB87900D81C9F /* Info.plist */,
+				9B45DBB71FEEBB4200D81C9F /* Classification.swift */,
+				9B45DBBC1FEF28E300D81C9F /* DocumentClassifier.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -150,8 +188,29 @@
 			children = (
 				9B45DBAE1FEEB87900D81C9F /* DocumentClassifierTests.swift */,
 				9B45DBAF1FEEB87900D81C9F /* Info.plist */,
+				9B45DBC71FEF3BB300D81C9F /* Resources */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		9B45DBC11FEF297600D81C9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B45DBC21FEF297600D81C9F /* DocumentClassification.mlmodel */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9B45DBC71FEF3BB300D81C9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B45DBC81FEF3BB300D81C9F /* Business.txt */,
+				9B45DBC91FEF3BB300D81C9F /* Entertainment.txt */,
+				9B45DBCA1FEF3BB300D81C9F /* Politics.txt */,
+				9B45DBCB1FEF3BB300D81C9F /* Sports.txt */,
+				9B45DBCC1FEF3BB300D81C9F /* Technology.txt */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +388,7 @@
 				TargetAttributes = {
 					9B45DB4C1FEEB6A500D81C9F = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Manual;
 					};
 					9B45DB551FEEB6A500D81C9F = {
@@ -337,6 +397,7 @@
 					};
 					9B45DB691FEEB6BA00D81C9F = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Manual;
 					};
 					9B45DB711FEEB6BA00D81C9F = {
@@ -345,6 +406,7 @@
 					};
 					9B45DB851FEEB6CD00D81C9F = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Manual;
 					};
 					9B45DB8D1FEEB6CD00D81C9F = {
@@ -353,6 +415,7 @@
 					};
 					9B45DBA11FEEB71100D81C9F = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -392,6 +455,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4EEC8B1FEF3D9C009E5262 /* Technology.txt in Resources */,
+				9B4EEC891FEF3D9C009E5262 /* Politics.txt in Resources */,
+				9B4EEC871FEF3D9C009E5262 /* Business.txt in Resources */,
+				9B4EEC881FEF3D9C009E5262 /* Entertainment.txt in Resources */,
+				9B4EEC8A1FEF3D9C009E5262 /* Sports.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +474,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4EEC861FEF3D9B009E5262 /* Technology.txt in Resources */,
+				9B4EEC841FEF3D9B009E5262 /* Politics.txt in Resources */,
+				9B4EEC821FEF3D9B009E5262 /* Business.txt in Resources */,
+				9B4EEC831FEF3D9B009E5262 /* Entertainment.txt in Resources */,
+				9B4EEC851FEF3D9B009E5262 /* Sports.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +493,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4EEC811FEF3D9A009E5262 /* Technology.txt in Resources */,
+				9B4EEC7F1FEF3D9A009E5262 /* Politics.txt in Resources */,
+				9B4EEC7D1FEF3D9A009E5262 /* Business.txt in Resources */,
+				9B4EEC7E1FEF3D9A009E5262 /* Entertainment.txt in Resources */,
+				9B4EEC801FEF3D9A009E5262 /* Sports.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +515,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B45DBB81FEEBB4200D81C9F /* Classification.swift in Sources */,
+				9B45DBBD1FEF28E300D81C9F /* DocumentClassifier.swift in Sources */,
+				9B45DBC31FEF297600D81C9F /* DocumentClassification.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +533,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B45DBB91FEEBB4200D81C9F /* Classification.swift in Sources */,
+				9B45DBBE1FEF28E300D81C9F /* DocumentClassifier.swift in Sources */,
+				9B45DBC41FEF297600D81C9F /* DocumentClassification.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +551,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B45DBBA1FEEBB4200D81C9F /* Classification.swift in Sources */,
+				9B45DBBF1FEF28E300D81C9F /* DocumentClassifier.swift in Sources */,
+				9B45DBC51FEF297600D81C9F /* DocumentClassification.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +569,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B45DBBB1FEEBB4200D81C9F /* Classification.swift in Sources */,
+				9B45DBC01FEF28E300D81C9F /* DocumentClassifier.swift in Sources */,
+				9B45DBC61FEF297600D81C9F /* DocumentClassification.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +754,7 @@
 		9B45DB631FEEB6A500D81C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -730,6 +821,7 @@
 		9B45DB641FEEB6A500D81C9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -933,6 +1025,7 @@
 		9B45DB7F1FEEB6BB00D81C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -999,6 +1092,7 @@
 		9B45DB801FEEB6BB00D81C9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1200,6 +1294,7 @@
 		9B45DB9B1FEEB6CD00D81C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1266,6 +1361,7 @@
 		9B45DB9C1FEEB6CD00D81C9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
