@@ -31,7 +31,7 @@ NewsClassifier is an example app using the framework.
 
 ## Model
 
-- [Model Link](https://github.com/toddkramer/DocumentClassifier/blob/master/Resources/DocumentClassification.mlmodel)
+- [Model Link](https://github.com/toddkramer/DocumentClassifier/blob/master/Sources/DocumentClassification.mlmodel)
 - Best CV Score: 0.965333333333
 - Trained using 1,500 news articles from the BBC from 2004-2005 (see references)
 - Converted from [scikit-learn Pipeline](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) using [coremltools](https://pypi.python.org/pypi/coremltools).
