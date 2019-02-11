@@ -51,7 +51,7 @@ extension Classification {
             let probability = output.classProbability[output.classLabel]
             else { return nil }
         let prediction = Result(category: category, probability: probability)
-        let allResults = output.classProbability.flatMap(Classification.result)
+        let allResults = output.classProbability.compactMap(Classification.result)
         self.init(prediction: prediction, allResults: allResults)
     }
 
