@@ -1,6 +1,6 @@
 # DocumentClassifier
 
-![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/DocumentClassifier/badge.png) [![Swift](https://img.shields.io/badge/swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/) ![Platform](https://cocoapod-badges.herokuapp.com/p/DocumentClassifier/badge.png)
+![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/DocumentClassifier/badge.png) [![Swift](https://img.shields.io/badge/swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/) ![Platform](https://cocoapod-badges.herokuapp.com/p/DocumentClassifier/badge.png)
 
 ## Overview
 
@@ -45,7 +45,7 @@ DocumentClassifier with CocoaPods:
 ``` ruby
 use_frameworks!
 
-pod 'DocumentClassifier', '1.0.0'
+pod 'DocumentClassifier', '1.1.0'
 ```
 
 3. Run `pod install`.
