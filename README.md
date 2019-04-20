@@ -1,6 +1,6 @@
 # DocumentClassifier
 
-![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/DocumentClassifier/badge.png) [![Swift](https://img.shields.io/badge/swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/) ![Platform](https://cocoapod-badges.herokuapp.com/p/DocumentClassifier/badge.png)
+![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/DocumentClassifier/badge.png) [![Swift](https://img.shields.io/badge/swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/) ![Platform](https://cocoapod-badges.herokuapp.com/p/DocumentClassifier/badge.png)
 
 ## Overview
 
@@ -25,13 +25,6 @@ print(classification.allResults) // Business: 0.141, Entertainment: 0.138, Polit
 
 ## Installation
 
-> _Note:_ DocumentClassifier requires Swift 4 (and [Xcode][] 9) or greater.
->
-> Targets using DocumentClassifier must support embedded Swift frameworks.
-
-[Xcode]: https://developer.apple.com/xcode/downloads/
-
-
 ### CocoaPods
 
 [CocoaPods][] is a centralized dependency manager for Cocoa projects. To install
@@ -45,7 +38,7 @@ DocumentClassifier with CocoaPods:
 ``` ruby
 use_frameworks!
 
-pod 'DocumentClassifier', '1.1.0'
+pod 'DocumentClassifier', '1.2.0'
 ```
 
 3. Run `pod install`.

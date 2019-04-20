@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'DocumentClassifier'
-  s.version = '1.1.0'
+  s.version = '1.2.0'
   s.license = 'MIT'
   s.summary = 'Swift framework for document classification using a Core ML model.'
   s.homepage = 'https://github.com/toddkramer/DocumentClassifier'
