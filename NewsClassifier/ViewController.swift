@@ -102,8 +102,8 @@ extension ViewController: UITextViewDelegate {
 extension ViewController {
 
     func addKeyboardObservers() {
-        NotificationCenter.default.addObserver(self, selector: #selector(toggleKeyboard), name: .UIKeyboardWillShow, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(toggleKeyboard), name: .UIKeyboardWillHide, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(toggleKeyboard), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(toggleKeyboard), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
 
     @objc private func toggleKeyboard(for notification: Notification) {
@@ -116,8 +116,8 @@ extension ViewController {
 
     private func keyboardAttributes(for notification: Notification) -> (size: CGSize, animationDuration: Double)? {
         guard
-            let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as AnyObject).cgRectValue?.size,
-            let animationDuration = (notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey] as AnyObject).doubleValue
+            let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as AnyObject).cgRectValue?.size,
+            let animationDuration = (notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as AnyObject).doubleValue
             else { return nil }
         return (keyboardSize, animationDuration)
     }
